@@ -20,3 +20,14 @@ const PRODUCTDETAILS = [
 export const getProductDetails = () => {
     return PRODUCTDETAILS;
 };
+
+export const PRODUCTS = [
+  { id: 1, name: 'Wireless Headphones', price: 2999 },
+  { id: 2, name: 'Running Shoes',       price: 1499 },
+  { id: 3, name: 'Yoga Mat',            price: 799  },
+  { id: 4, name: 'Bluetooth Speaker',   price: 1999 },
+  { id: 5, name: 'Smart Watch',         price: 8999 },
+  { id: 6, name: 'Leather Wallet',      price: 499  },
+  { id: 7, name: 'Air Fryer',           price: 4999 },
+  { id: 8, name: 'Resistance Bands',    price: 349  },
+];
