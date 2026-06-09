@@ -1,6 +1,6 @@
 import ProductDetail from "./ProductDetail";
 import { useState, useEffect } from "react";
-import { getProductDetails } from "../data/mockData";
+import { getProductDetails } from "../data/mockData.tsx";
 
 
 const ProductListing = () => {

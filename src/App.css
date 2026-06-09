@@ -22,4 +22,35 @@
     border:#050505 1px solid;
     border-radius: 8px;
     padding: 8px;
+    margin: 12px;
+    width: 50%;
+}
+.paginationBar {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.table{
+    border:1px solid #050505;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    margin: 20px;
+}
+.tableHeader {
+    cursor: pointer;
+    border: 1px solid #050505;
+    padding: 20px;
+    text-align: center;
+}
+.paginationButton {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius:  4px;
+    cursor: pointer;;
+}
+.paginationButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
